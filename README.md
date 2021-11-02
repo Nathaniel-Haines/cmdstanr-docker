@@ -7,12 +7,12 @@ The image is hosted on [dockerhub here](https://hub.docker.com/repository/docker
 `docker pull nathanielhaines/cmdstanr`
 
 # Running the image
-Once the image is installed, you can open an R instance using the following command: 
+Once the image is installed, you can open a bash terminal using the following command: 
 
 `docker run -it nathanielhaines/cmdstanr`
 
 ## Testing the installation
-Running the image will start up a bash terminal. There, you can run the following example code to see `cmdstanr` in action:
+From the terminal, you can run the following example code to see `cmdstanr` in action:
 
 ```
 Rscript cmdstanr-example.R
