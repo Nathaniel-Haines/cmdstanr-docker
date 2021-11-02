@@ -12,7 +12,13 @@ Once the image is installed, you can open an R instance using the following comm
 `docker run -it nathanielhaines/cmdstanr`
 
 ## Testing the installation
-Running the image will start up an R instance. There, you can run the following example code to see `cmdstanr` in action:
+Running the image will start up a bash terminal. There, you can run the following example code to see `cmdstanr` in action:
+
+```
+Rscript cmdstanr-example.R
+```
+
+This will run the following R code:
 
 ```
 # Load cmdstanr
